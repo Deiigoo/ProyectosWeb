@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio28</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos Personales:</legend>
+            Nombre:<br><input type="text"><br>
+            Apellido:<br><input type="text"><br>
+            DNI:<br><input type="text"><br>
+            Edad:<br><input type="number" min="1" max="99"><br>
+            Sexo<br><select value="sexo" id="sexo">
+                <option value="...">...</option>
+                <option value="macho">macho</option>
+                <option value="hembra">hembra</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mejor Pellícula</legend>
+            <input type="radio" name="Centauros del desierto">Centauros del desierto<br>
+            <input type="radio" name="El hombre que mató a Liberty Valance">El hombre que mató a Liberty Valance<br>
+            <input type="radio" name="Rio Rojo">Rio Rojo<br>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona las películas que hayas visto</legend>
+            <input type="checkbox" name="Rio Bravo">Rio Bravo<br>
+            <input type="checkbox" name="El Último tren a Gun Hill">El Último tren a Gun Hill<br>
+            <input type="checkbox" name="Sólo ante el peligro">Sólo ante el peligro<br>
+            <input type="checkbox" name="Misión de audaces">Misión de audaces<br>
+            <input type="checkbox" name="El sargento negro">El sargento negro<br>
+        </fieldset>
+        <fieldset>
+            <legend>Argumento de tu película preferida</legend>
+            <textarea name="argumento" id="argumento" rows="20" cols="50"></textarea><br>
+        </fieldset><br>
+        <button type="reset" name="boton-limpiar">Borrar Formulario</button>
+        <button type="submit" name="boton-enviar">Enviar</button>
+
+    </form>
+</body>
+</html>
