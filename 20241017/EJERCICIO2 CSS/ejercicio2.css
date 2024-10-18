@@ -1,12 +1,57 @@
+body{
+    color: blue;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 24px;
+    line-height: 24px;
+}
 p{
     width: 400px;
     text-justify:auto;
     letter-spacing: 4px;
     padding: 20px;
-    
 }
+
 h1{
     color: red;
-    font-size: 5;
-    
+    font-size: 18px;
+    font-family: verdana;
+    width:800px;
+}
+
+h2{
+    color: green;
+    font-size: 16px;
+    font-family: Graramond;
+    font-style: italic;
+}
+
+b{
+    text-transform: uppercase;
+    width: auto;
+}
+
+em{
+    text-decoration-line: underline;
+    font-style: normal;
+}
+
+a:link{
+    color: purple;
+
+}
+
+a:visited{
+    color: hotpink
+}
+
+a:hover{
+    color:lime;
+}
+a:active{
+    color: yellow;
+}
+.eliminado{
+    text-decoration:line-through;
+    color: purple;
 }
