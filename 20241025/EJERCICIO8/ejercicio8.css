@@ -1,0 +1,24 @@
+div.uno{
+    background-color: pink;
+    border-color: blue;
+    border-width: 3px;
+    padding: 30px;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+div.dos{
+    margin-left: auto;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: purple;
+    margin-top: 10px;
+}
+div.tres{
+    padding: 30px;
+    background-color: peachpuff;
+    border-style: solid;
+    border-color: brown;
+    margin-top: 40px;
+    margin-left: 300px;
+}

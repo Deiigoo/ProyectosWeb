@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio28</title>
+    <link rel="stylesheet" href="ejercicio7.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre:<br><input type="text"><br>
+            Apellido:<br><input type="text"><br>
+            DNI:<br><input type="text"><br>
+            Edad:<br><input type="number" min="1" max="99"><br>
+            Sexo<br><select value="sexo" id="sexo">
+                <option value="...">...</option>
+                <option value="macho">macho</option>
+                <option value="hembra">hembra</option>
+            </select>
+            <fieldset>
+                <legend>Fecha de nacimiento</legend>
+                Dia<br><select value="dia" id="dia">
+                    <option value="...">...</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                </select><br>
+                Mes<br><select value="mes" id="mes">
+                    <option value="...">...</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select><br>
+                Año<br><select value="año" id="año">
+                    <option value="...">...</option>
+                    <option value="1970">1970</option>
+                    <option value="1980">1980</option>
+                    <option value="1990">1990</option>
+                    <option value="2000">2000</option>
+                </select>
+               
+            </fieldset>
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>Sugerencias</legend>
+            <textarea name="argumento" id="argumento" rows="20" cols="50"></textarea><br>
+        </fieldset><br>
+        
+        <button type="submit" name="boton-enviar"><b>Enviar Datos</b></button>
+
+    </form>
+</body>
+</html>
