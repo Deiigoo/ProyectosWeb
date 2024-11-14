@@ -1,0 +1,15 @@
+.nombre-sitio{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.nombre-sitio span{
+    color: #037bc0;
+}
+.hero{
+    background-image: url('../img/principal.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 731px;
+    
+}

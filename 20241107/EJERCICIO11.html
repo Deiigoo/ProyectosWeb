@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"
+  type="text/css" href="estilocompleto-e.css">
+    <meta charset="utf-8">
+    <title>Ejercicio</title>
+    <style>
+        .static{
+            position: static;
+            height: 200px;
+            width: 100px;
+            background-color: yellow;
+            border-style: solid;
+            border-color: green;
+            border-width: 2px;
+            top:50px;
+            left:50px;
+        }
+        .relative{
+            position: relative;
+            height:300px ;
+            width: 300px;
+            background-color: lightblue;
+            border-style: solid;
+            border-color: blue;
+            border-width: 2px;
+        }
+        .absolute{
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            top:100px ;
+            left:100px ;
+        }
+        .absolute2{
+            position: absolute;
+            height: 200px;
+            width: 100px;
+            background-color: gray;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            top: 20px;
+            left: 20px;
+        }
+        .fijo{
+            position: fixed;
+            border-style: solid;
+            border-color: green;
+            bottom: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+<p>Contenido antes del div siguiendo el flujo normal</p>
+<div class="static">
+  Este Div está posicionado estáticamente, tamaño 200x100, fondo amarillo, borde verde y desplazado 50px de la parte superior e izquierda.
+</div>
+<p>a continuación otro párrafo. El div anterior al estar definido como position static no hace caso de los desplazamientos superior e izquierdo</p>
+<div class="relative">
+  Este Div está posicionado relative, tamaño 300x300, fondo azul claro, borde azul y desplazado 50px de la parte superior e izquierda.
+  <div class="absolute2">
+  Este Div está posicionado absolute, tamaño 200x100, fondo gris, borde negro y desplazado 20px de la parte superior e izquierda.
+</div>
+</div>
+<div class="absolute">
+  Este Div está posicionado absolute, tamaño 300x300, fondo transparente, borde negro y desplazado 100px de la parte superior e izquierda.
+</div>
+<div class="fijo">
+  Fijo esquina inferior derecha.
+</div>
+
+</body>
+</html>
